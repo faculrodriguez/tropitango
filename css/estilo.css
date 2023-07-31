@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+
+/* BODY */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/fondo1.jpg);
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+header {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 140px;
+    padding: 0px 20px;
+}
+
+li,
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    display: flow-root;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
+    text-align: center;
+    padding: 20px;
+}
+
+.logoFooter {
+    width: 50px;
+}
+
+.logoRedes {
+    width: 22px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    padding: 10px;
+}
+
+/* INDEX */
+
+.inicio {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {text-decoration: none;
+}
+
+.colorBtnSpotify{    
+    background-color: #1DB954;
+    color: #fafafa;
+}
+
+.colorBtnSpotify:hover {
+    background-color: #10a343;
+    color: #fafafa;
+}
+
+
+/* EL TROPI */
+
+.cardTropi{
+    padding: 50px;
+}
+
+/*  SHOWS */
+
+.fotoShow{
+    width: 600px;
+}
+
+.divShow {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoShow {
+    margin: 20px 100px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.videoShow {
+    width: 850px;
+    height: 500px;
+    margin: 1%;
+}
+
+/* PRODUCTOS */
+
+.contenedorProductos{
+    padding: 3%;
+}
+.card {
+    background-color: black;
+    color: #fafafa;
+    margin: 10px 0px;
+}
+
+.colorBtn {
+    background-color: #DD34F8;
+    color: #fafafa;
+}
+
+.colorBtn:hover {
+    background-color: #A117B8;
+    color: #fafafa;
+}
+
+/* CONTACTO */
+
+
+.formulario {
+    width: 40%;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.campos {
+    width: 85%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btnForm {
+    margin-top: 10px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MEDIA QUERIS */
+
+@media (max-width: 320px) {
+
+    .videoShow {
+      width: 200px;
+      height: 150px;
+    } 
+  
+  }
+
+  @media (max-width: 768px) {
+
+    .videoShow {
+      width: 500px;
+      height: 350px;
+    } 
+  
+  }

@@ -119,9 +119,9 @@ a {text-decoration: none;
 }
 
 .videoShow {
-    width: 850px;
+    width: 80%;
     height: 500px;
-    margin: 1%;
+    margin-bottom: 3%;
 }
 
 /* PRODUCTOS */
@@ -181,20 +181,9 @@ label {
 
 /* MEDIA QUERIS */
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
 
-    .videoShow {
-      width: 200px;
-      height: 150px;
-    } 
-  
-  }
-
-  @media (max-width: 768px) {
-
-    .videoShow {
-      width: 500px;
-      height: 350px;
-    } 
-  
-  }
+    .botones{
+        margin: 10px;
+    }
+}

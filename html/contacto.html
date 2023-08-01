@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg">
+    <header class="navbar navbar-expand-lg" data-bs-theme="dark">
         <nav class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img class="logo" src="../img/tropilogo.png" alt="logo tropitango">
@@ -44,39 +44,42 @@
     </header>
 
     <main>
-        <div class="titulos mt-1">
-            <h1> Contacto</h1>
-        </div>
+        <div class="container">
+            <div class="titulos mt-1">
+                <h1> Contacto</h1>
+            </div>
 
-        <div class="row">
-            <div class="grupoContacto col-xl-6  col-md-6 col-sm-12">
-                <form>
-                    <div class=" campos mb-3 ">
-                        <label for="Nombre" class="form-label"> Nombre </label>
-                        <input type="text" class="  form-control">
-                    </div>
+            <div class="row">
+                <div class="grupoContacto col-xl-6  col-md-6 col-sm-12">
+                    <form>
+                        <div class=" campos mb-3 ">
+                            <label for="Nombre" class="form-label"> Nombre </label>
+                            <input type="text" class="  form-control">
+                        </div>
 
-                    <div class="campos mb-3">
-                        <label for="Apellido" class="form-label"> Apellido </label>
-                        <input type="text" class="form-control">
-                    </div>
+                        <div class="campos mb-3">
+                            <label for="Apellido" class="form-label"> Apellido </label>
+                            <input type="text" class="form-control">
+                        </div>
 
-                    <div class="campos">
-                    <label for="mensaje"> Mensaje </label>
-                    <textarea class="form-control" id="mensaje" cols="30" rows="10"></textarea>
-                    <button type="submit" class="btn btnForm colorBtn"> Enviar </button>
-                    <button type="reset" class="btn btnForm colorBtn"> Restablecer </button>
+                        <div class="campos">
+                            <label for="mensaje"> Mensaje </label>
+                            <textarea class="form-control" id="mensaje" cols="30" rows="10"></textarea>
+                            <button type="submit" class="btn btnForm colorBtn"> Enviar </button>
+                            <button type="reset" class="btn btnForm colorBtn"> Restablecer </button>
+                        </div>
+                    </form>
                 </div>
-                </form>
-            </div>
 
-            <div class="mapa col-xl-6 col-md-6 col-sm-12">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.974316227414!2d-58.654133218696636!3d-34.478175803380694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca35ec337eb7d%3A0x76ca904828f0805b!2sTropitango%20Bailable!5e0!3m2!1ses-419!2sar!4v1688439851399!5m2!1ses-419!2sar"
-                    width="90%" height="500px" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="mapa col-xl-6 col-md-6 col-sm-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.974316227414!2d-58.654133218696636!3d-34.478175803380694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca35ec337eb7d%3A0x76ca904828f0805b!2sTropitango%20Bailable!5e0!3m2!1ses-419!2sar!4v1688439851399!5m2!1ses-419!2sar"
+                        width="90%" height="500px" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
+
     </main>
 
     <footer>

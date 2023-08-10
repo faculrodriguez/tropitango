@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family= Montserrat & display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +9,6 @@ body {
   background-image: url(../img/fondo1.jpg);
   background-position: center;
 }
-
 body h1 {
   color: white;
   text-align: center;
@@ -24,23 +22,22 @@ header {
   background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
   padding: 10px 20px;
 }
-
 header .logo {
   width: 110px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
-
 header .navbar-nav .nav-link:hover {
   color: #DD34F8;
 }
-
 header .navbar-nav li,
 header .navbar-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
   font-size: 20px;
   font-weight: bold;
-  text-transform: uppercase;
   padding: 0px 10px;
 }
 
@@ -50,16 +47,13 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
 footer .logoFooter {
   width: 50px;
 }
-
 footer .logoRedes {
   width: 22px;
   margin: 10px;
 }
-
 footer h3 {
   font-size: 12px;
   font-weight: lighter;
@@ -73,7 +67,6 @@ footer h3 {
   font-weight: bold;
   transition: 0.5s;
 }
-
 .colorBtn:hover {
   transform: scale(1.1);
   background-color: #A117B8;
@@ -87,19 +80,16 @@ footer h3 {
   justify-content: center;
   align-items: center;
 }
-
 .inicio button a {
   text-decoration: none;
   font-weight: bold;
   padding: 5px;
 }
-
 .inicio .colorBtnSpotify {
   background-color: #1DB954;
   color: white;
   transition: 0.5s;
 }
-
 .inicio .colorBtnSpotify:hover {
   background-color: #10a343;
   color: white;
@@ -124,13 +114,11 @@ footer h3 {
   flex-direction: column;
   align-items: center;
 }
-
 .divShow .textoShow {
   margin: 5% 10%;
   text-align: center;
   color: white;
 }
-
 .divShow .videoShow {
   width: 80%;
   height: 500px;
@@ -141,7 +129,6 @@ footer h3 {
 .contenedorProductos {
   padding: 3%;
 }
-
 .contenedorProductos .card {
   background-color: black;
   color: white;
@@ -158,18 +145,15 @@ form {
   margin-bottom: 50px;
   margin-left: 20px;
 }
-
 form label {
   font-weight: bold;
   color: white;
 }
-
 form .campos {
   width: 85%;
   padding: 10px;
   font-size: 20px;
 }
-
 form .campos .btnForm {
   margin-top: 10px;
 }
@@ -184,14 +168,12 @@ form .campos .btnForm {
   .botones {
     margin: 10px;
   }
-
-  .divShow .videoShow {
+  .videoShow {
     height: 200px;
   }
 }
-
 @media (min-width: 576px) and (max-width: 768px) {
-  .divShow .videoShow {
+  .videoShow {
     height: 300px;
   }
 }

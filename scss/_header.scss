@@ -1,3 +1,5 @@
+@import "mixin";
+
 header {
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
     padding: 10px 20px;
@@ -16,9 +18,9 @@ header {
 
         li,
         a {
+            @include anclas;
             font-size: 20px;
             font-weight: bold;
-            text-transform: uppercase;
             padding: 0px 10px;
         }
     }

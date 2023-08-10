@@ -1,0 +1,12 @@
+.colorBtn {
+	background-color: $colorBoton;
+	color: $colorTexto;
+	font-weight: bold;
+	transition: 0.5s;
+
+	&:hover {
+		transform: scale(1.1);
+		background-color: $colorBotonHover;
+		color: $colorTexto;
+	}
+}

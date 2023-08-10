@@ -1,0 +1,22 @@
+footer {
+	display: flow-root;
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
+	text-align: center;
+	padding: 20px;
+
+	.logoFooter {
+		width: 50px;
+	}
+
+	.logoRedes {
+		width: 22px;
+		margin: 10px;
+	}
+
+	h3 {
+		font-size: 12px;
+		font-weight: lighter;
+		color: $colorTexto;
+		padding: 10px;
+	}
+}

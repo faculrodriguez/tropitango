@@ -1,189 +1,199 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat & display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
-
-/* BODY */
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-image: url(../img/fondo1.jpg);
-    background-position: center;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/fondo1.jpg);
+  background-position: center;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 20px;
-    font-size: 50px;
-    font-weight: bold;
+body h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bold;
 }
-
-/* HEADER */
 
 header {
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
-    padding: 10px 20px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
+  padding: 10px 20px;
 }
 
-.logo {
-    width: 140px;
-    padding: 0px 20px;
+header .logo {
+  width: 110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
-li,
-a {
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 0px 10px;
+header .navbar-nav .nav-link:hover {
+  color: #DD34F8;
 }
 
-
-
-
-/* FOOTER */
+header .navbar-nav li,
+header .navbar-nav a {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
 
 footer {
-    display: flow-root;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
-    text-align: center;
-    padding: 20px;
+  display: flow-root;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
+  text-align: center;
+  padding: 20px;
 }
 
-.logoFooter {
-    width: 50px;
+footer .logoFooter {
+  width: 50px;
 }
 
-.logoRedes {
-    width: 22px;
-    margin: 10px;
+footer .logoRedes {
+  width: 22px;
+  margin: 10px;
 }
 
-h3 {
-    font-size: 12px;
-    font-weight: lighter;
-    color: white;
-    padding: 10px;
-}
-
-/* INDEX */
-
-.inicio {
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-a {text-decoration: none;
-}
-
-.colorBtnSpotify{    
-    background-color: #1DB954;
-    color: #fafafa;
-}
-
-.colorBtnSpotify:hover {
-    background-color: #10a343;
-    color: #fafafa;
-}
-
-
-/* EL TROPI */
-
-.cardTropi{
-    padding: 50px;
-}
-
-/*  SHOWS */
-
-.fotoShow{
-    width: 600px;
-}
-
-.divShow {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.textoShow {
-    margin: 20px 100px;
-    text-align: center;
-    color: #fafafa;
-}
-
-.videoShow {
-    width: 80%;
-    height: 500px;
-    margin-bottom: 3%;
-}
-
-/* PRODUCTOS */
-
-.contenedorProductos{
-    padding: 3%;
-}
-.card {
-    background-color: black;
-    color: #fafafa;
-    margin: 10px 0px;
+footer h3 {
+  font-size: 12px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
 }
 
 .colorBtn {
-    background-color: #DD34F8;
-    color: #fafafa;
+  background-color: #DD34F8;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
 }
 
 .colorBtn:hover {
-    background-color: #A117B8;
-    color: #fafafa;
+  transform: scale(1.1);
+  background-color: #A117B8;
+  color: white;
+}
+
+/* INDEX */
+.inicio {
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio button a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.inicio .colorBtnSpotify {
+  background-color: #1DB954;
+  color: white;
+  transition: 0.5s;
+}
+
+.inicio .colorBtnSpotify:hover {
+  background-color: #10a343;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* EL TROPI */
+.cardTropi {
+  padding: 50px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(3, 0, 15));
+  color: white;
+}
+
+/* SHOWS */
+.fotoShow {
+  width: 600px;
+}
+
+.divShow {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divShow .textoShow {
+  margin: 5% 10%;
+  text-align: center;
+  color: white;
+}
+
+.divShow .videoShow {
+  width: 80%;
+  height: 500px;
+  margin-bottom: 3%;
+}
+
+/* PRODUCTOS */
+.contenedorProductos {
+  padding: 3%;
+}
+
+.contenedorProductos .card {
+  background-color: black;
+  color: white;
+  margin: 10px 0px;
 }
 
 /* CONTACTO */
-
-
 .formulario {
-    width: 40%;
+  width: 40%;
 }
 
 form {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
 }
 
-label {
-    font-weight: bold;
-    color: #ffffff;
+form label {
+  font-weight: bold;
+  color: white;
 }
 
-.campos {
-    width: 85%;
-    padding: 10px;
-    font-size: 20px;
+form .campos {
+  width: 85%;
+  padding: 10px;
+  font-size: 20px;
 }
 
-.btnForm {
-    margin-top: 10px;
+form .campos .btnForm {
+  margin-top: 10px;
 }
 
 .mapa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-/* MEDIA QUERIS */
 
 @media (max-width: 576px) {
+  .botones {
+    margin: 10px;
+  }
 
-    .botones{
-        margin: 10px;
-    }
+  .divShow .videoShow {
+    height: 200px;
+  }
 }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .divShow .videoShow {
+    height: 300px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

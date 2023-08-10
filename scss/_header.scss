@@ -1,0 +1,25 @@
+header {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(5, 1, 21));
+    padding: 10px 20px;
+
+    .logo {
+        width: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .navbar-nav {
+        .nav-link:hover {
+            color: #DD34F8;
+        }
+
+        li,
+        a {
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0px 10px;
+        }
+    }
+}

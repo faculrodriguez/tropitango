@@ -73,13 +73,27 @@
 
 /* PRODUCTOS */
 
+.titProducto {
+	font-size: 2.5rem;
+}
+
 .contenedorProductos {
 	padding: 3%;
 
 	.card {
+		overflow: hidden;
 		background-color: black;
 		color: $colorTexto;
 		margin: 10px 0px;
+
+		img {
+			transition: 0.3s;
+
+			&:hover {
+				transform: scaleX(1.05);
+				opacity: 0.7;
+			}
+		}
 	}
 }
 

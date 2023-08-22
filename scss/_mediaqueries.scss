@@ -1,15 +1,11 @@
-@media (max-width: 576px) {
-	.botones {
-		margin: 10px;
-	}
-
-	.videoShow {
-		height: 200px;
+@mixin tablet {
+	@media screen and (max-width: 768px) {
+		@content;
 	}
 }
 
-@media (min-width: 576px) and (max-width:768px) {
-	.videoShow {
-		height: 300px;
+@mixin mobile {
+	@media screen and (max-width: 576px) {
+		@content;
 	}
 }
